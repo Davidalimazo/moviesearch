@@ -1,0 +1,11 @@
+@mixin ipadPro(){
+    @media(max-width:768px){
+        @content;
+    }
+}
+
+@mixin iphoneSe(){
+    @media (max-width: 375px) {
+        @content;
+    }
+}
