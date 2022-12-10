@@ -12,7 +12,7 @@ function App() {
 
   const fetchData = async () => {
      await axios
-      .get(`http://www.omdbapi.com/?apikey=${apiKey}&t=${search}`)
+      .get(`https://www.omdbapi.com/?apikey=${apiKey}&t=${search}`)
       .then((res) => {
         setData(res.data);
       })
